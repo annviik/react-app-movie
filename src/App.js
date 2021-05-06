@@ -38,6 +38,7 @@ return (
    
     <header>
     <h1>The Movie Dashboard</h1>
+    
       <form onSubmit ={handleOnSubmit}>
       <input 
     className= "search" 
@@ -55,6 +56,9 @@ return (
            movies.map((movie) => 
              <Movie key= {movie.id} {...movie} />)}
           </div> 
+          <footer >
+            <h3 style={{textAlign: "center"}}>Made with Love by <a href="https://github.com/annviik/react-app-movie" style={{color: "white", textDecoration:"none"}}>Annvii Kumar</a></h3>
+          </footer>
           </>
 );
 }
