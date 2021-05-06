@@ -22,8 +22,13 @@
   margin-top: 0;
 margin-bottom: 0px;
 margin-right: 20%;
-color: orange;
+text-decoration: none;
 
+
+}
+.root a{
+  color: orange;
+  text-decoration: none;
 }
 .search{
   

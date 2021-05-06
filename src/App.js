@@ -37,7 +37,7 @@ return (
    <>
    
     <header>
-    <h1>The Movie Dashboard</h1>
+    <h1><a href="/">The Movie Dashboard</a></h1>
     
       <form onSubmit ={handleOnSubmit}>
       <input 
